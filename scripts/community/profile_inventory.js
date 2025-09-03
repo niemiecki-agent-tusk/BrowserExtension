@@ -5,9 +5,9 @@ if( document.getElementById( 'inventory_link_753' ) )
 	GetOption( {
 		'link-inventory': true,
 		'link-inventory-gift-subid': true,
-		'enhancement-inventory-sidebar': true,
+		'enhancement-inventory-sidebar': false,
 		'enhancement-inventory-quick-sell': true,
-		'enhancement-inventory-quick-sell-auto': false,
+		'enhancement-inventory-quick-sell-auto': true,
 		'enhancement-inventory-no-sell-reload': true,
 		'enhancement-inventory-badge-info': true,
 	}, ( items ) =>
