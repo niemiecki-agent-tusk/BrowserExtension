@@ -1,6 +1,6 @@
 'use strict';
 
-GetOption( { 'enhancement-skip-agecheck': false }, ( items ) =>
+GetOption( { 'enhancement-skip-agecheck': true }, ( items ) =>
 {
 	if( items[ 'enhancement-skip-agecheck' ] )
 	{
